@@ -93,15 +93,13 @@ def get_vehicle():
 
 # @app.route('/')
 # def homepage():
-#     return render_template("index.html")    
-
-
+#     return 'howdy, welcome to the home page'
 
 
 
 # @app.errorhandler(404)
 # def page_not_found(e):
-#     return render_template("404.html")
+#     return 'This is not the page you are looking for'
 
 # Run server
 if __name__ == "__main__":
