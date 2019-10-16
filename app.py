@@ -25,7 +25,8 @@ class Vehicle(db.Model):
   make = db.Column(db.String(20))
   model = db.Column(db.String(20), unique=True)
   price = db.Column(db.Integer, default=20)
-
+  
+  # constructor for vehicle class
   def __init__(self, make, model, price):
     self.make = make
     self.model = model
